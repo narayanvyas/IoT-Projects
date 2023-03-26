@@ -31,8 +31,8 @@
 */
 
 int inputPin = 3;       // choose the input pin (for PIR sensor)
-int ledRed   = 9;     // choose the pin for Green LED
-int ledGreen = 11;         // choose the pin for Red LED
+int ledRed   = 6;     // choose the pin for Green LED
+int ledGreen = 13;         // choose the pin for Red LED
 int buzzer = 13;         // choose pin for the buzzer
 int pirState = LOW;     // we start, assuming no motion detected
 int val      = 0;       // variable for reading the pin status
